@@ -1,0 +1,9 @@
+[project]
+name = "vanilla"
+version = "0.1.0"
+description = "Firestore MCP server"
+requires-python = ">=3.13"
+dependencies = [
+    "firebase-admin>=7.3.0",
+    "mcp>=1.26.0",
+]
